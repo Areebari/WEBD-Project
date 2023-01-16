@@ -2,6 +2,17 @@ html body {
   background: #f1f1f1;
 }
 
+.wrapper{
+    width: 70%;
+    padding: 20px;
+    margin:auto;
+    background: #fffffc;
+  }
+  
+.img-gallery img{
+    margin-bottom: 5px;
+  }
+
 .navbar {
   padding: 5px;
   margin-top: 20px;
@@ -17,6 +28,61 @@ html body {
     color: #b3f0ff;
   }
 
+  script{
+	text-align: center;
+    align-items: center;
+}
+
+
+
+div.a {
+    line-height: 1.6;
+  }
+  
+  
+  h1{ font-family:Garamond;
+    color: black;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  h2{
+    color: black;
+    font-size: 30px;
+    text-align:  center;
+  }
+  
+  h3{
+    color: black;
+    font-size: 30px;
+    text-align:  center;
+  }
+  
+  ul{
+    font-weight: normal;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+  }
+  
+  p{
+    line-height: 1.6;
+    font-family:Garamond;
+    font-weight: normal;
+    font-size: 20px;
+    color: black;
+    text-align: Center;
+    
+   }
+  
+  a{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: black;
+    text-align: left;
+  }
   /* Skills Page Styles */
 .card{
     margin: 10px 20px;
