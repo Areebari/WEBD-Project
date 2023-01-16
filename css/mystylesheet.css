@@ -11,6 +11,7 @@ html body {
   
 .img-gallery img{
     margin-bottom: 5px;
+    align-items: center;
   }
 
 .navbar {
@@ -83,6 +84,52 @@ div.a {
     color: black;
     text-align: left;
   }
+
+  .img-fluid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+  }
+  
+
+  .droplet {
+    background: #b3f0ff;
+    border-radius: 2% 50%;
+    height: 50px;
+    margin: 50px;
+    transition: all 3s;
+    transition-timing-function: ease-in-out;
+    width: 50px; 
+  }
+  
+  .droplet:hover {
+    transform: rotate(1080deg);
+  }
+  
+  @keyframes stretch {
+    0% {
+      transform: scale(.3);
+      background-color: #20c997;
+      border-radius: 100%;
+    }
+    50% {
+      background-color: #0dcaf0;
+    }
+    100% {
+      transform: scale(1.5);
+      background-color: #b3f0ff;
+    }
+  }
+  
+  .bottom-buffer{
+    margin-bottom: 20px;
+  }
+  
+  .btn-check:focus+.btn, .btn:focus{
+    box-shadow: none !important;
+  }
   /* Skills Page Styles */
 .card{
     margin: 10px 20px;
@@ -91,3 +138,27 @@ div.a {
   .card-text{
     color: white;
   }
+
+  /* About Page Styles */
+
+  .video-container {
+	position:relative;
+	padding-bottom:56.25%;
+	padding-top:30px;
+	height:0;
+	overflow:hidden;
+  margin-top: 50px;
+}
+
+.video-container iframe, .video-container object, .video-container embed {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+}
+
+.embed-video{
+  padding-top: 50px;
+  text-align: center;
+}
