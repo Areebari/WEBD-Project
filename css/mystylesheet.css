@@ -16,3 +16,12 @@ html body {
 .nav-link a:hover, .nav-link a:focus{
     color: #b3f0ff;
   }
+
+  /* Skills Page Styles */
+.card{
+    margin: 10px 20px;
+  }
+  
+  .card-text{
+    color: white;
+  }
