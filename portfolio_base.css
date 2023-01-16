@@ -1,0 +1,45 @@
+@charset "UTF-8";
+/* Author: Areeb 
+Date: 2022-10-05 */
+
+body {
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.homepage-img, .Goals-img, .Contact-img, .resume-img, .skills-img {
+    float: left;
+    height: 225px;
+    width: 500px;
+    margin: 15px;
+}
+
+nav ul li {
+    list-style-type: none;
+    float: right;    
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px; 
+}   
+
+p::first-letter {
+    font-size: 250%;
+    color:crimson;  
+  }
+
+footer {
+    background-color: white;
+    color: blue;
+}
+a:link {
+    text-decoration: none;
+  }
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:blue;
+}
+
